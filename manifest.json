@@ -1,0 +1,13 @@
+{
+    "name": "Selvyn",
+    "version": "2.10.2",
+    "manifest_version":3,
+    "content_scripts": [
+        {
+        "matches": ["*://*.google.com/*"],
+        "css": [],
+        "js":["sample.js"]
+        }
+    ]
+
+}
